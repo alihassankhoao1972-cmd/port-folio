@@ -13,6 +13,7 @@ body {
 
 /* Navbar */
 .nav {
+  posision: fixed;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
@@ -153,4 +154,5 @@ footer {
     text-align: center;
   }
 }
+
 
