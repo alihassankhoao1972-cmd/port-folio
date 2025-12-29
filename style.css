@@ -14,7 +14,8 @@ body {
 /* Navbar */
 .nav {
   display: flex;
-  posision: fixed;
+  position: fixed;
+  width: 100%;
   justify-content: space-between;
   padding: 20px 40px;
   background: #261d1d;
@@ -149,14 +150,8 @@ footer {
 /* Responsive */
 @media (max-width: 600px) {
   .nav {
-    font-size: small;
     position: relative;
     flex-direction: column;
     text-align: center;
   }
 }
-
-
-
-
-
