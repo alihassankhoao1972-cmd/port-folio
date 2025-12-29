@@ -21,7 +21,6 @@ body {
 }
 
 .nav h2, .nav a {
-  posision: fixed;
   color: #878585;
   text-decoration: none;
   margin-left: 15px;
@@ -156,6 +155,7 @@ footer {
     text-align: center;
   }
 }
+
 
 
 
