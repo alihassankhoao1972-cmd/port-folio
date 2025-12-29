@@ -13,14 +13,15 @@ body {
 
 /* Navbar */
 .nav {
-  posision: fixed;
   display: flex;
+  posision: fixed;
   justify-content: space-between;
   padding: 20px 40px;
   background: #261d1d;
 }
 
 .nav h2, .nav a {
+  posision: fixed;
   color: #878585;
   text-decoration: none;
   margin-left: 15px;
@@ -149,10 +150,13 @@ footer {
 /* Responsive */
 @media (max-width: 600px) {
   .nav {
+    font-size: small;
+    position: relative;
     flex-direction: column;
     text-align: center;
   }
 }
+
 
 
 
