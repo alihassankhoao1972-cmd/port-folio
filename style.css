@@ -139,10 +139,13 @@ footer {
   padding-top: 20px;
   text-decoration: none;
   color: rgb(197, 195, 195);
+  transition: 1s ease;
 }
 
 .section1 a:hover{
   color: #f8f6f6;
+  font-size: larger;
+  transition: 1s ease;
 }
 
 
@@ -155,3 +158,4 @@ footer {
     text-align: center;
   }
 }
+
