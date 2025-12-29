@@ -148,7 +148,9 @@ footer {
 /* Responsive */
 @media (max-width: 600px) {
   .nav {
+    position: relative;
     flex-direction: column;
     text-align: center;
   }
 }
+
